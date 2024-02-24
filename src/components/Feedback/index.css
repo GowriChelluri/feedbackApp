@@ -1,0 +1,40 @@
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  height: 300px;
+  width: 500px;
+  border-width: 0px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #0f172a;
+  font-size: 30px;
+  margin: 20px;
+}
+.emojis-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.emoji {
+  height: 50px;
+  width: 50px;
+  margin-right: 50px;
+}
+.emoji-name {
+  color: #1e293b;
+  font-size: 12px;
+}
